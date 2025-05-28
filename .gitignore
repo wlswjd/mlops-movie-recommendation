@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+
+# Secrets
+.env
+
+# MLflow artifacts
+mlflow/mlflow.db
+mlflow/artifacts/
+
+# MinIO raw data
+minio/data/
+
+# Jupyter Notebook autosaves
+*.ipynb~
+
+# VSCode or PyCharm
+.vscode/
+.idea/
+
